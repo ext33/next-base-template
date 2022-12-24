@@ -1,10 +1,6 @@
 import React, { FC } from "react"
 
-type Props = {
-
-}
-
-const Footer: FC<Props> = () => {
+const Footer: FC = () => {
     return (
         <div className="footer">
 

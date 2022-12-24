@@ -1,0 +1,11 @@
+@import "styles/variables";
+
+.button {
+    border-radius: 10px;
+    background-color: $bgColorLight;
+    border: 1px solid $textColorLight;
+    color: $textColorLight;
+    margin: 10px 0;
+    padding: 10px 30px;
+    cursor: pointer;
+}

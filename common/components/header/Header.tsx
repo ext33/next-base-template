@@ -1,12 +1,8 @@
 import React, { FC } from "react"
 
-type Props = {
-
-}
-
-const Header: FC<Props> = () => {
+const Header: FC = () => {
     return (
-        <div className="header">
+        <div className="header" role="heading" aria-level={1}>
 
         </div>
     )
